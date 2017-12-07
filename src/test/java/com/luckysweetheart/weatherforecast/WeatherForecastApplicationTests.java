@@ -21,6 +21,9 @@ public class WeatherForecastApplicationTests {
 
 	@Test
 	public void testW(){
+		// weather-forecast-0.0.1-SNAPSHOT.jar
+		// nohup java -jar weather-forecast-0.0.1-SNAPSHOT.jar >weather-forecast.log &
+		// ps -aux|grep weather-forecast-0.0.1-SNAPSHOT.jar
 		weatherScheduleService.execute();
 	}
 
