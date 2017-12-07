@@ -132,7 +132,7 @@ public class WeatherScheduleService {
     /**
      * 6:30执行任务
      */
-    @Scheduled(cron = "00 08 14 * * ?")
+    @Scheduled(cron = "00 30 06 * * ?")
     public void execute() {
         Weather weather = getWeather();
         if (weather == null) {
